@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+
+body{
+    background: #f5f5f5!important;
+}
+
+:root{  
+    --main-color:#775ada;
+    --text-color:#40514e;
+    --button-text-color:#f5f5f5;
+}
+
+
+
+.button{
+    background:transparent;
+    border:3px solid var(--main-color);
+    padding:12px 45px;
+    font-size: 18px;
+    color:var(--main-color);
+    font-weight: 800;
+    border-radius: 4px;
+    transition: .3s;
+    letter-spacing: .4.5px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+ .button:hover{
+    background: var(--main-color);
+    text-decoration: none;
+    color:var(--button-text-color);
+}
+
+/* *************  index page  **************** */
+
+
+.start-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-middle{
+    max-width: 400px;
+    padding:10px;
+    height: 300px;
+    text-align: center;
+}
+
+.box-middle h1{
+    width: 100%;
+    font-size: 32px;
+    color: var(--text-color);
+   text-transform: uppercase;
+}
+
+.box-middle input[type=text]{
+    margin-top: 34px;
+    padding:10px;
+    height: 45px;
+    width: 80%; 
+    border-radius: 3px;
+    border:none;
+    background:transparent;
+    color: var(--text-color);
+    border:2px solid var(--main-color);
+    font-size: 20px;
+    font-weight:700;
+    outline: none;
+    text-align: center;
+}
+
+.box-middle input[type=submit]{
+    margin-top: 20px;
+    padding:13px;
+    width: 43%;  
+    font-size: 17px;
+    font-weight: 700;
+    border:none;
+    color: var(--button-text-color);
+    border-radius: 30px;
+    border: 3px solid var(--main-color);
+    background: var(--main-color);
+    transition: .3s;
+}
+
+.box-middle input[type=submit]:hover{
+    color: var(--main-color);
+    border-radius: 30px;
+    background:whitesmoke;
+}
+
+
+
+/* ****************  Main page  *************** */
+
+
+.main-container{
+    max-width: 700px;
+    padding:100px 10px 20px 10px;
+}
+
+.main-container .header{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+.main-container .description{
+    margin-bottom: 4px;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.main-container strong{
+    font-weight: 900;
+    color: var(--text-color);
+}
+
+
+
+/* ***********************  Question section  ********************** */
+
+.question-container{
+    width: 100%;
+    height: 100%;
+}
+
+.question-container .header-container{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+
+.question-container .header-container h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.quiz-container{
+    padding-top: 50px; 
+}
+
+.quiz-container h2{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.quiz-container ul{
+    padding:5px 30px;
+}   
+
+.quiz-container ul li{
+    padding:10px 0px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}   
+
+.quiz-container ul li span{
+    margin-left: 10px;
+    
+}
+
+/* .quiz-container input[type=submit]{
+    border:3px solid var(--main-color);
+    padding:10px 30px;
+    font-size: 16px;
+    color:var(--main-color);
+    font-weight: 800;
+    border-radius: 4px;
+    transition: .3s;
+    letter-spacing: .4.5px;
+    outline: none   ;
+    text-transform: uppercase;
+    background: var(--main-color);
+    text-decoration: none;
+    color: white;
+}   
+
+.quiz-container input[type=submit]:hover{
+    cursor: pointer;
+}    */
+
+
+
+/* **********************  End Section  *********************** */
+
+.end-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.end-container h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.end-container h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.end-container h2{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.end-container span{
+    font-weight: 700;
+}
+
+/* .end-container input[type=submit]{
+    border:3px solid var(--main-color);
+    padding:10px 30px;
+    font-size: 16px;
+    color:var(--main-color);
+    font-weight: 800;
+    border-radius: 4px;
+    transition: .3s;
+    letter-spacing: .4.5px;
+    text-transform: uppercase;
+    background: var(--main-color);
+    text-decoration: none;
+    color: white;
+}   
+
+.end-container input[type=submit]:hover{
+    cursor: pointer;
+}    */
+
+
+
+
+
